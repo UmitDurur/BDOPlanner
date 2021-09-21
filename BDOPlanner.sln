@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDOPlanner", "BDOPlanner\BDOPlanner.csproj", "{F27D5633-339F-4C07-9C75-1256E4FC6115}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupHelper", "SetupHelper\SetupHelper.vdproj", "{B58A8F96-4852-4E30-91DA-810E7E9D24C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F27D5633-339F-4C07-9C75-1256E4FC6115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27D5633-339F-4C07-9C75-1256E4FC6115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27D5633-339F-4C07-9C75-1256E4FC6115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27D5633-339F-4C07-9C75-1256E4FC6115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58A8F96-4852-4E30-91DA-810E7E9D24C3}.Debug|Any CPU.ActiveCfg = Debug
+		{B58A8F96-4852-4E30-91DA-810E7E9D24C3}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BA9B498-89F9-48F5-A486-11EE63D464E0}
+	EndGlobalSection
+EndGlobal
