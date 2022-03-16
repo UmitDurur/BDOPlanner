@@ -40,8 +40,14 @@ namespace BDOPlanner.UserControls
             DateTime dateTime = intervalEvent.LastCompletion;
             dateTime = dateTime.AddMinutes(intervalEvent.Interval);
             lblTime.Text = dateTime.ToShortTimeString();
-
-            int currentinterval = Convert.ToInt32((dateTime - dtNow).TotalMilliseconds);
+            int currentinterval=0;
+            try
+            {
+                currentinterval = Convert.ToInt32((dateTime - dtNow).TotalMilliseconds);
+            }
+            catch {
+                currentinterval = 0;
+            }
             if (currentinterval > 0)
             {
                 timer = new Timer();
